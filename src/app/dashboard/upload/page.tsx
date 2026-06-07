@@ -5,6 +5,7 @@ import { useAuth } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
 import { CloudUpload, Loader2, Music, AlertCircle } from "lucide-react";
 import clsx from "clsx";
+import Link from "next/link";
 
 export default function UploadPage() {
     const { user, minutesBalance } = useAuth();
